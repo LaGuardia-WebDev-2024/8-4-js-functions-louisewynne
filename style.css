@@ -1,0 +1,30 @@
+/* Background Pattern 
+Taken From https://projects.verou.me/css3patterns/ */
+
+html {
+  background-size: 100px 100px;
+  background-position: 0 0, 25px 25px, 50px 50px;
+  text-align: center;
+}
+
+body{
+  background:
+linear-gradient(135deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+linear-gradient(225deg, #708090 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+background-color:#708090 ;
+background-size: 64px 128px ;
+}
+
+h1,
+h2 {
+  background-color: #f10937 ;
+  border-radius: 20px;
+  color: white;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+#myCanvas {
+  border: 5px solid  #f10937;
+  border-radius: 30px;
+}
